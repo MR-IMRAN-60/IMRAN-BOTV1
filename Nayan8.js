@@ -23,7 +23,7 @@ function i(a) {
   f.loader("deploying app on port " + e.blueBright(h));
   c.listen(f.loader("app deployed on port " + e.blueBright(h)));
   console.clear();
-  d.get("https://raw.githubusercontent.com/MR-NAYAN-404/NAYAN-BOT/main/update.json").then(a => {
+  d.get("https://raw.githubusercontent.com/cyber-cat-abdulla/ABDULLA-BOT/main/update.json").then(a => {
     f(a.data.name, "[ NAME ]");
     f("Version: " + a.data.version, "[ VERSION ]");
     f(a.data.description, "[ DESCRIPTION ]");
@@ -35,7 +35,7 @@ function i(a) {
     f(a.data.main, "[ FORK ]");
   });
   console.log(e.blue("            ┳┓┏┓┓┏┏┓┳┓  ┳┓┏┓┏┳┓\n            ┃┃┣┫┗┫┣┫┃┃━━┣┫┃┃ ┃ \n            ┛┗┛┗┗┛┛┗┛┗  ┻┛┗┛ ┻ "));
-  console.log(e.blue("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n             NAYAN-BOT UPDATE \n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n"));
+  console.log(e.blue("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n             ABDULLA-BOT UPDATE \n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n"));
 }
 ;
 i();
