@@ -23,7 +23,7 @@ function i(a) {
   f.loader("deploying app on port " + e.blueBright(h));
   c.listen(f.loader("app deployed on port " + e.blueBright(h)));
   console.clear();
-  d.get("https://raw.githubusercontent.com/MR-NAYAN-404/NAYAN-BOT/main/update.json").then(a => {
+  d.get("https://raw.githubusercontent.com/MR-IMRAN-60/IMRAN-BOTV1/main/update.json").then(a => {
     f(a.data.name, "[ NAME ]");
     f("Version: " + a.data.version, "[ VERSION ]");
     f(a.data["new command"], "[ NEW COMMAND ]");
